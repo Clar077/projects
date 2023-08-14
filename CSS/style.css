@@ -1,0 +1,353 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif; */
+body{
+  font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+:root{
+  --main-color : #1c1c1c;
+}
+header{
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.6) ,rgba(0,0,0,0.6)) , url(../imgs/bg.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+header h5{
+  font-size: 50px;
+  font-weight: 1000;
+}
+header h1{
+  font-size: 60px;
+  line-height: 1.2;
+}
+.header h1::after{
+  content:"   | ";
+  animation-name: typing;
+  animation-duration: 4s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+}
+@keyframes typing{
+  0%{ content:" |"}
+  3%{ content:" D |"}
+  6%{ content:" De |"}
+  9%{ content:" Des |"}
+  12%{ content:" Desi |"}
+  15%{ content:" Desig |"}
+  18%{ content:" Design |"}
+  21%{ content:" Designe |"}
+  24%{ content:" Designer |"}
+  27%{ content:" Designe |"}
+  30%{ content:" Design |"}
+  33%{ content:" Desig |"}
+  36%{ content:" Desi |"}
+  39%{ content:" Des |"}
+  41%{ content:" De |"}
+  44%{ content:" D |"}
+  47%{ content:"  |"}
+  50%{ content:" D |"}
+  53%{ content:" De |"}
+  54%{ content:" Dev |"}
+  55%{ content:" Deve |"}
+  56%{ content:" Devel |"}
+  57%{ content:" Develo |"}
+  58%{ content:" Develop |"}
+  59%{ content:" Develope |"}
+  60%{ content:" Developer |"}
+  61%{ content:" Develope |"}
+  62%{ content:" Develop |"}
+  63%{ content:" Develo |"}
+  64%{ content:" Devel |"}
+  65%{ content:" Deve |"}
+  66%{ content:" Dev |"}
+  67%{ content:" De |"}
+  68%{ content:" D |"}
+  69%{ content:"  |"}
+  70%{ content:" L  |"}
+  71%{ content:" La  |"}
+  72%{ content:" Larr  |"}
+  73%{ content:" Larry  |"}
+  74%{ content:" Larry   |"}
+  76%{ content:" Larry D  |"}
+  78%{ content:" Larry Da  |"}
+  79%{ content:" Larry Dan  |"}
+  80%{ content:" Larry Dane  |"}
+  81%{ content:" Larry Danie  |"}
+  82%{ content:" Larry Daniel  |"}
+  83%{ content:" Larry Daniels  |"}
+  84%{ content:" Larry Daniel  |"}
+  85%{ content:" Larry Danie  |"}
+  86%{ content:" Larry Dani  |"}
+  87%{ content:" Larry Dan  |"}
+  89%{ content:" Larry Da  |"}
+  91%{ content:" Larry D  |"}
+  92%{ content:" Larry   |"}
+  93%{ content:" Larry  |"}
+  94%{ content:" Larr  |"}
+  96%{ content:" Lar  |"}
+  97%{ content:" La  |"}
+  98%{ content:" L  |"}
+  99%{ content:"   |"}
+  100%{ content:"  |"}
+}
+@media screen and (max-width: 800px) {
+  header h1 {
+    font-size: 50px;
+  }
+}
+header .myp {
+  max-width: 500px;
+}
+
+header .btn-download {
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: transparent;
+}
+
+header .btn-download:hover {
+  background-color: #fff;
+  color: #333;
+}
+/* ////////////////////////////// */
+
+.row .icons ul li {
+  text-align: center;
+  cursor:pointer;
+  color: white;
+  background-color: rgba(0,0,0,0.6);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+
+
+@media screen and (max-width: 992px) {
+  .header .right {
+    margin-top: 30px;
+  }
+}
+
+/* //////////////////////////////////////////////////// */
+
+
+.navbar-light .navbar-nav .nav-link {
+  color: #333;
+  font-weight: 400;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  text-decoration: underline;
+  color: var(--maincolor);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: var(--maincolor);
+  font-weight: bold;
+  text-decoration: underline;
+}
+.nav-scroll .logo {
+  padding-top: 2px;
+  color: #1c1c1c;
+}
+a {
+  background-color: transparent;
+}
+/* .navbar-brand{
+  letter-spacing: 1px;
+} */
+/* /////////////////////////////////////// */
+
+.tube1,.tube2,.tube3{
+  background-color: black;
+  width: 100%;
+  height:28px;
+  margin-top:25px;
+  border-radius: 10px;
+  box-shadow:0px 2px 7px rgba(0,0,0,0.15) inset;
+}
+.tube-inner1{
+  width: 95%;
+}
+.tube-inner2{
+  width: 80%;
+}
+.tube-inner3{
+  width: 90%;
+}
+
+
+/* /////////////////////////////////// */
+
+@media only screen and (max-width:992px)
+{
+.abiut .right{
+  margin-top: 30px;
+}
+}
+
+
+
+/* /////////////////////////////////////// */
+.buton {
+  margin-top: 20px;
+}
+.button a {
+  text-decoration: none;
+}
+.buton-bg {
+  background: #1c1c1c;
+  color: #eee;
+}
+.buton1 {
+  margin-top: 20px;
+  padding: 10px 30px;
+  border: 1px solid #1c1c1c;
+  border-radius: 5px;
+  font-size: 13px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.buton-bg:hover {
+  background: transparent !important;
+  color: #343434 !important;
+}
+.buton1:hover {
+  background: #1c1c1c;
+  color: #eee;
+}
+span {
+  display: inline-block;
+}
+
+.buton2:hover {
+  background: #1c1c1c;
+  color: #eee;
+}
+.buton2 {
+  margin-top: 20px;
+color: #1c1c1c;
+  padding: 10px 30px;
+  border: 1px solid #1c1c1c;
+  border-radius: 5px;
+  font-size: 13px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+/* /////////////////////// */
+.row .item .icon .fa i {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.row .item:hover .icon i {
+  background: #1c1c1c;
+  color: #eee;
+}
+.services .item .icon {
+  font-size: 30px;
+  margin-bottom: 20px;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  background: #f4f4f4;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.text-center {
+  text-align: center;
+}
+/* //////////////////// */
+.row .f1,.f2,.f3 {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.contact .info .item .icon ,.f1,.f2,.f3 {
+  font-size: 25px;
+  margin-bottom: 15px;
+  width: 40px;
+  height: 40px;
+  line-height: 50px;
+  background: #f4f4f4;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+span .f1,.f2,.f3{
+  display: inline-block;
+}
+.contact .info .item:hover .icon , .f1,.f2,.f3 {
+  background: #1c1c1c;
+  cursor: pointer;
+  color: #eee;
+}
+
+/* //////////////////// */
+.nav-tabs{
+  max-width: 500px;
+}
+.nav-tabs .nav-link{
+  color: #333;
+  text-align: center;
+  text-decoration: underline;
+  border: none;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs {
+  border: none;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  background-color: #fff;
+  border: none;
+}
+/* //////////////////////////// */
+.porfolio .item .overlay{
+
+  width:100% ;
+  height: 100%;
+  top:100%;
+  left:0;
+  transition: all .3s;
+}
+.porfolio .item:hover .overlay{
+  background-color: #fff;
+  width:80%;
+  height: 80%;
+  top:0;
+}
+.porfolio .item::after{
+  content: "";
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width: 100%;
+  height:100%;
+}
